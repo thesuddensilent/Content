@@ -1894,7 +1894,7 @@ p_teleport(movecoord(loc_coord, 0, 0, -1));
 ~mesbox("This is an ancient looking furnace, it is partially molten and buried by years of rock debris. Inside the furnace there is a compartment with strangely shaped sections.");
 
 [oploc2,furnace_legendsquest]
-~mesbox("You search the lava furnace. You find a small compartment that you may be able to use. Strangely, it looks as if It looks designed it is designed for a specific purpose... to fuse things together at very high temperatures...");
+~mesbox("You search the lava furnace. You find a small compartment that you may be able to use. Strangely, it looks as if it is designed for a specific purpose... to fuse things together at very high temperatures...");
 @legends_furnace_pieces(true);
 
 [label,legends_furnace_pieces](boolean $searching)
@@ -1991,6 +1991,8 @@ if(last_useitem = heartcrystal) {
 [oploc1,legendsquest_force_barrier]
 if(%legendsquest >= ^legends_heart_in_recess) {
     if(coordz(coord) > coordz(loc_coord)) {
+        // https://youtu.be/3Dty7jbf4yI?si=Ly7iIMU1-KcRvmU4&t=2955
+        mes(" ");
         mes("You walk carefully through the magical barrier and");
         p_teleport(0_37_73_53_18);
         p_delay(1);

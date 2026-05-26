@@ -14,6 +14,7 @@ protect=no
 protect=no
 
 [cog_bits]
+scope=perm
 
 [lastcombat_pvp]
 protect=no

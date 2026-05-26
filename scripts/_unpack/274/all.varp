@@ -4,39 +4,6 @@
 
 [weakqueue_map_clock]
 
-[skill_guide_skill]
-type=stat
-scope=temp
-protect=no
-
-[skill_guide_pages]
-type=int
-scope=temp
-protect=no
-
-[eadgar_quest]
-
-[varp_336]
-
-[varp_337]
-
-[varp_338]
-
-[viking]
-scope=perm
-
-[viking_bits]
-scope=perm
-
-[draugen_butterfly_uid]
-type=npc_uid
-
-[godbook_multi]
-scope=perm
-
-[deephorror]
-scope=perm
-
 [varp_357]
 
 [varp_358]

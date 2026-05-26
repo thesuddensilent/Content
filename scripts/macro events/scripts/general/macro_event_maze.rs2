@@ -24,6 +24,7 @@ mes("You need to reach the maze centre, then you'll be returned to where you wer
 [proc,end_macro_maze]
 if_openoverlay(null);
 cleartimer(macro_maze);
+~music_jingle("maze centre");
 anim(emote_cheer, 20);
 p_delay(5);
 ~macro_return_teleport;

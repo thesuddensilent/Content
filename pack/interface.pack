@@ -7453,7 +7453,7 @@
 7452=music:legend
 7453=music:sunburn
 7454=music:bandit_camp
-7455=magic:com_492
+7455=magic:trollheim_teleport
 7456=magic:com_493
 7457=magic:com_494
 7458=magic:com_495
@@ -8677,7 +8677,7 @@
 8676=magic:com_499
 8677=eadgar_fade_to_black
 8678=eadgar_fade_to_black:com_0
-8679=questlist:com_82
+8679=questlist:eadgar
 8680=questscroll_death
 8681=questscroll_death:com_0
 8682=questscroll_death:com_1
